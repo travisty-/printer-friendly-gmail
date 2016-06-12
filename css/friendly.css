@@ -1,0 +1,5 @@
+.bodycontainer > table, hr,
+.maincontent > table:first-child,
+.message > tbody > tr:nth-child(-n+2) {
+  display: none !important;
+}
