@@ -1,6 +1,6 @@
 {
   "name": "Printer Friendly Gmail",
-  "version": "0.0.0.1",
+  "version": "0.0.0.2",
   "manifest_version": 2,
   "description": "Removes Gmail content from header when printing an email.",
   "homepage_url": "https://github.com/travisty-/printer-friendly-gmail",
