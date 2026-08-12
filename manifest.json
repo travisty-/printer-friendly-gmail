@@ -4,7 +4,6 @@
   "manifest_version": 2,
   "description": "Hides the Gmail header, subject line, and sender details when printing an email.",
   "homepage_url": "https://github.com/travisty-/printer-friendly-gmail",
-  "default_locale": "en",
   "icons": {
     "16": "icons/icon16.png",
     "48": "icons/icon48.png",
