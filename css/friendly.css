@@ -1,5 +1,14 @@
-.bodycontainer > table, hr,
-.maincontent > table:first-child,
-.message > tbody > tr:nth-child(-n+2) {
+/* Elements of Gmail's print view (?view=pt) hidden from the printout:
+   .bodycontainer > table                     Gmail logo and account email banner
+   .bodycontainer > hr, .maincontent > hr     Separator rules under the banner and the subject block
+   .maincontent > table:first-of-type         Subject line and message count
+   .message > tbody > tr:nth-of-type(-n+2)    Each message's sender, date, and To/Reply-To lines
+ */
+
+.bodycontainer > table,
+.bodycontainer > hr,
+.maincontent > table:first-of-type,
+.maincontent > hr,
+.message > tbody > tr:nth-of-type(-n+2) {
   display: none !important;
 }

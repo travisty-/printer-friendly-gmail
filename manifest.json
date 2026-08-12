@@ -12,7 +12,10 @@
   },
   "content_scripts": [
     {
-      "matches": ["https://mail.google.com/mail/*&view=pt*"],
+      "matches": [
+        "https://mail.google.com/mail/*?view=pt*",
+        "https://mail.google.com/mail/*&view=pt*"
+      ],
       "css": ["css/friendly.css"]
     }
   ]
