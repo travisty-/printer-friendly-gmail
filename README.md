@@ -1,15 +1,7 @@
-# printer-friendly-gmail
-Removes Gmail content from header when printing an email.
+# Printer Friendly Gmail
 
-Chrome extension available at:
-* https://chrome.google.com/webstore/detail/ikehhajkadegiobmdlmajippigldcnma
-* https://github.com/travisty-/printer-friendly-gmail/archive/master.zip
-  [via Developer Mode]
+Hides the Gmail header, subject line, and sender details when printing an email.
 
-On the rare occasion that I need to print an email, I always find myself  
-removing the Gmail header elements through Chrome's Developer Tools.
+Only Gmail's native print view is affected; use the printer icon on a message or "Print all" on a conversation.
 
-This simple extension automates that process, so you can get back to
-browsing Reddit or whatever.
-
-![Demo](http://i.imgur.com/vGvTTct.png)
+Install it from the [Chrome Web Store](https://chromewebstore.google.com/detail/ikehhajkadegiobmdlmajippigldcnma).

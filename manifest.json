@@ -2,7 +2,7 @@
   "name": "Printer Friendly Gmail",
   "version": "0.1.0",
   "manifest_version": 2,
-  "description": "Removes Gmail content from header when printing an email.",
+  "description": "Hides the Gmail header, subject line, and sender details when printing an email.",
   "homepage_url": "https://github.com/travisty-/printer-friendly-gmail",
   "default_locale": "en",
   "icons": {
