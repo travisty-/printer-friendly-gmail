@@ -1,7 +1,7 @@
 {
+  "manifest_version": 3,
   "name": "Printer Friendly Gmail",
-  "version": "0.1.0",
-  "manifest_version": 2,
+  "version": "1.0.0",
   "description": "Hides the Gmail header, subject line, and sender details when printing an email.",
   "homepage_url": "https://github.com/travisty-/printer-friendly-gmail",
   "icons": {
@@ -11,11 +11,11 @@
   },
   "content_scripts": [
     {
+      "css": ["content.css"],
       "matches": [
         "https://mail.google.com/mail/*?view=pt*",
         "https://mail.google.com/mail/*&view=pt*"
-      ],
-      "css": ["content.css"]
+      ]
     }
   ]
 }
